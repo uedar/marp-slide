@@ -76,6 +76,13 @@ $$
 $$
 
 ---
+# 4.4 The Laplace Approximation
+
+---
+
+
+
+---
 <style scoped>
   section {
     font-size: 400%;
@@ -84,3 +91,5 @@ $$
 
 aaa
 <span style="color:red">a<span>
+
+---
