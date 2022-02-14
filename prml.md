@@ -33,10 +33,13 @@ $
 # 4.3.5 Probit regression
 
 
-![bg right:50% width:500](./../image/fig_4.13.png)
+![bg right:50% width:500](./image/fig_4.13.png)
 - aaa
 - bbb
 
+
+---
+![bg right:50% width:500](./image/fig_4.13.png)
 
 
 ---
@@ -44,7 +47,7 @@ $
 # 4.3.5 Probit regression
 $\sigma(a)=\frac{1}{1+\exp (-a)}$
 
-![bg right:50% width:600](./../image/fig_4.9.png)
+![bg right:50% width:600](./image/fig_4.9.png)
 
 
 
@@ -138,7 +141,7 @@ $$
 ---
 # 4.4 The Laplace Approximation
 
-![width:1000](./../image/fig_4.14.png)
+![width:1000](./image/fig_4.14.png)
 
 ---
 # 4.4.1 Model comparison and BIC
