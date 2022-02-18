@@ -341,7 +341,7 @@ $$
 \begin{aligned}
 \ln p(D) &= \ln p\left(D \mid \boldsymbol{\theta}_{M A P}\right)-\frac{1}{2}\left(\boldsymbol{\theta}_{M A P}-\mathbf{m}\right)^{T} \mathbf{V}_{0}^{-1}\left(\boldsymbol{\theta}_{M A P}-\mathbf{m}\right)-\frac{1}{2} \ln |\mathbf{H}|-  \ln \left|\mathbf{V}_{0}\right| \\
 &= \ln p\left(D \mid \boldsymbol{\theta}_{M A P}\right)-\frac{1}{2}\left(\boldsymbol{\theta}_{M A P}-\mathbf{m}\right)^{T} \mathbf{V}_{0}^{-1}\left(\boldsymbol{\theta}_{M A P}-\mathbf{m}\right)-\frac{1}{2} \ln |N \widehat{\mathbf{H}}|- \ln \left|\mathbf{V}_{0}\right| \\ 
-&= \ln p\left(D \mid \boldsymbol{\theta}_{M A P}\right)-\frac{1}{2}\left(\boldsymbol{\theta}_{M A P}-\mathbf{m}\right)^{T} \mathbf{V}_{0}^{-1}\left(\boldsymbol{\theta}_{M A P}-\mathbf{m}\right)-\frac{M}{2} \ln N-\frac{1}{2} \ln |\widehat{\mathbf{H}}|-0\ln \left|\mathbf{V}_{0}\right| \\ 
+&= \ln p\left(D \mid \boldsymbol{\theta}_{M A P}\right)-\frac{1}{2}\left(\boldsymbol{\theta}_{M A P}-\mathbf{m}\right)^{T} \mathbf{V}_{0}^{-1}\left(\boldsymbol{\theta}_{M A P}-\mathbf{m}\right)-\frac{M}{2} \ln N-\frac{1}{2} \ln |\widehat{\mathbf{H}}|-\ln \left|\mathbf{V}_{0}\right| \\ 
 N>>1 \\
 & \approx \ln p\left(D \mid \boldsymbol{\theta}_{M A P}\right)-\frac{M}{2} \ln N
 \end{aligned}
