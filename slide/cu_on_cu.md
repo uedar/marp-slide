@@ -145,7 +145,7 @@ print(a0)
 
 ---
 
-# Calculate absorption energy
+# Calculate adsorption energy
 - CO on Cu(111)
 
 <div class="split">
