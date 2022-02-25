@@ -156,7 +156,7 @@ print(a0)
 ||bridge|ontop|fcc hollow|
 |-|-|-|-|
 ||![width:100](./image/co/bridge.png)|![width:100](./image/co/ontop.png)|![width:100](./image/co/fcc_hollow.png)|
-|$E_{abs} (eV)$　||||
+|$E_{ads} (eV)$　||||
 |$d_{C-O} (Å)$　||||
 |$d_{C_u-C} (Å)$　||||
 
@@ -168,7 +168,7 @@ print(a0)
 ||bridge|ontop|fcc hollow|
 |-|-|-|-|
 ||![width:100](./image/co/bridge.png)|![width:100](./image/co/ontop.png)|![width:100](./image/co/fcc_hollow.png)|
-|$E_{abs} (eV)$　||||
+|$E_{ads} (eV)$　||||
 |$d_{C-O} (Å)$　||||
 |$d_{C_u-C} (Å)$　||||
 
