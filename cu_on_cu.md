@@ -50,9 +50,9 @@ paginate: false
 
 # Find lattice constant
 - Find FCC Cu lattice constant
-- ASE, ASE-STATE-interface
+- Using ASE, ASE-STATE-interface
   - ASE tutorial page: https://wiki.fysik.dtu.dk/ase/tutorials/lattice_constant.html
-- Calculated 20 candidates, shifting gradually from the initial value 3.6 Å
+- Calculated 10 candidates of lattice constant, shifting gradually from the initial value 3.6 Å
 
 Fit the energy using this expression(a: lattice constant)
 $$
@@ -61,8 +61,8 @@ $$
 
 
 <table align="center">
-<tr><td>optb86b-vdw<td>rev-vdw-df2
-<tr><td>3.6089 Å<td>3.6157 Å
+<tr><td>optb86b-vdw<td>rev-vdw-df2<td>rebpbe-d2<td>rpbe-d2
+<tr><td>3.6089 Å<td>3.6157 Å<td>3.6048 Å<td>3.6173 Å
 </table>
 
 ---
@@ -112,7 +112,7 @@ print(a0)
 
 ---
 ## STATE parameters
-```json
+```json:input_data
     input_data = {'WF_OPT'       :    'DAV' ,
                   'TYPE'         :       0  ,
                   'NSPG'         :       1  ,
@@ -146,40 +146,30 @@ print(a0)
 ---
 
 # Calculate adsorption energy
-- CO on Cu(111)
 
-<div class="split">
-  <div class="split-item split-left">
+-  CO on Cu(111)
 
-### optb86b-vdw
 
-||bridge|ontop|fcc hollow|
-|-|-|-|-|
-||![width:100](./image/co/bridge.png)|![width:100](./image/co/ontop.png)|![width:100](./image/co/fcc_hollow.png)|
-|$E_{ads} (eV)$　||||
-|$d_{C-O} (Å)$　||||
-|$d_{C_u-C} (Å)$　||||
-
-</div>
-  <div class="split-item split-right">
-
-### rev-vdw-df2
-
-||bridge|ontop|fcc hollow|
-|-|-|-|-|
-||![width:100](./image/co/bridge.png)|![width:100](./image/co/ontop.png)|![width:100](./image/co/fcc_hollow.png)|
-|$E_{ads} (eV)$　||||
-|$d_{C-O} (Å)$　||||
-|$d_{C_u-C} (Å)$　||||
-
-  </div>
-</div>
+$$
+E_{\mathrm{ads}}^{\mathrm{CO}}=E_{\mathrm{tot}}(\mathrm{sys})-\left[E_{\mathrm{tot}}(\mathrm{subs})+E_{\mathrm{tot}}(\mathrm{CO})\right]
+$$
 
 
 
+### CO adsorption energy on Cu(111) surface [eV]
+
+||ontop|fcc hollow|hcp hollow|bridge|
+|:-:|:-:|:-:|:-:|:-:|
+|optb86b-vdw|-0.93|-1.06|-1.05|-0.99|
+|rev-vdw-df2|-0.86|-0.97|-0.96|-0.90|
+|revpbe-d2|-0.89|-0.94|-0.93|-0.85|
+|rev-vdw-df2|-0.85|-0.89|-0.88|-0.81|
 
 
-
+![bg right:42% width:580](./image/co/ads.svg)
 
 
 ---
+
+![width:500](./image/co/ads-vdw.png)
+[https://aip.scitation.org/doi/10.1063/1.4887362](https://aip.scitation.org/doi/10.1063/1.4887362)
