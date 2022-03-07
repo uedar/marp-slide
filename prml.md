@@ -52,7 +52,7 @@ p(t=1 \mid a)=f(a)
 $$
 
 $a=\mathbf{w}^{\mathrm{T}} \phi$  and $f(\cdot)$ is activation function.
-![bg right:40% width:500](./image/fig_4.13.png)
+![bg right:40% width:500](./image/prml/fig_4.13.png)
 $$\begin{cases}t_{n}=1 & \text { if } a_{n} \geqslant \theta \\ t_{n}=0 & \text { otherwise. }\end{cases}$$
 
 <span style="color:blue">■</span> $p(\theta)$: probability density
@@ -102,7 +102,7 @@ $\sigma(a)=\frac{1}{1+\exp (-a)}$
 $\Phi(a)=\frac{1}{2}\left\{1+\frac{1}{\sqrt{2}} \operatorname{erf}(a)\right\}$
 
 
-![bg right:40% width:600](./image/fig_4.9.png)
+![bg right:40% width:600](./image/prml/fig_4.9.png)
 
 - logistic regression: decay like $exp(-x)$
 - probit regression: decay like $exp(-x^2)$
@@ -217,7 +217,7 @@ $$ -->
 ### Disadvantages
 - Only applicable to real variables
 - Difficult to choose which mode to use when multimodal distribution
-![bg right:40% width:500](./image/fig_4.14.png)
+![bg right:40% width:500](./image/prml/fig_4.14.png)
 
 <span style="color:yellow">■</span> : $p(z) \propto \exp \left(-z^{2} / 2\right) \sigma(20 z+4)$
 <span style="color:red">■</span> : Laplace approximation of $p(z)$
@@ -290,7 +290,7 @@ $$
 ---
 # Exercise 4.23
 
-![width:900px](./image/exercise_4.23.png)
+![width:900px](./image/prml/exercise_4.23.png)
 
 BIC expression (4.139)
 $$
